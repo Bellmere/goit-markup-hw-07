@@ -62,14 +62,13 @@ body {
   border-bottom: 1px solid var(--header-border-color);
 }
 
-/* logo */
 
-.logo {
+/* .logo {
   width: 145px;
   border: 0;
 }
 
-.logo-link {
+.logo__link {
   color: var(--accent-color);
   font-family: Raleway, serif;
   font-weight: 700;
@@ -79,7 +78,7 @@ body {
   text-decoration: none;
 }
 
-.logo-header {
+.logo__text {
   color: var(--primary-black-color);
 
   font-family: Raleway, serif;
@@ -90,16 +89,9 @@ body {
   text-decoration: none;
 }
 
-.logo-footer {
+.page-footer__logo__text {
   color: var(--primary-white-color);
-
-  font-family: Raleway, serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-
-  text-decoration: none;
-}
+} */
 
 /* site nav */
 
