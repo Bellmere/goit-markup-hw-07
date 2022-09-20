@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --title-text-color: #212121;
   --text-color: #757575;
   --accent-color: #2196f3;
@@ -11,41 +11,41 @@
   --card-border-color: #eeeeee;
   --header-border-color: #ececec;
   --transition-cubic: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   height: 100%;
   background-color: var(--primary-white-color);
   color: var(--text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-}
+} */
 
-.wraper {
+/* .wraper {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-}
+} */
 
-.list {
+/* .list {
   list-style: none;
   padding: 0;
   margin: 0;
-}
+} */
 
-.page-main {
+/* .page-main {
   flex: 1 1 auto;
-}
+} */
 
-.container {
+/* .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -54,13 +54,13 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
+} */
 
 /* header */
 
-.page-header {
+/* .page-header {
   border-bottom: 1px solid var(--header-border-color);
-}
+} */
 
 
 /* .logo {
@@ -129,11 +129,11 @@ body {
   color: var(--accent-color);
 } */
 
-.item-nav .link.current {
+/* .item-nav .link.current {
   color: var(--accent-color);
-}
+} */
 
-.item-nav .link.current::after {
+/* .item-nav .link.current::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -145,25 +145,25 @@ body {
   border-radius: 2px;
 
   background: var(--accent-color);
-}
+} */
 
 /* contacts */
 
-.contact-list {
+/* .contact-list {
   display: inline-flex;
   margin-left: auto;
   align-items: center;
 }
 
-.contact-icon {
+.contact-list__icon {
   margin-right: 10px;
 }
 
-.contact-list .contact-item:not(:last-child) {
+.contact-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contact-item .contact {
+.contact-list__link {
   display: inline-flex;
   align-items: center;
   vertical-align: text-bottom;
@@ -180,11 +180,11 @@ body {
     color 250ms var(--transition-cubic);
 }
 
-.contact-list .contact:hover,
-.contact-list .contact:focus {
+.contact-list__link:hover,
+.contact-list__link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
-}
+} */
 
 /* section */
 
