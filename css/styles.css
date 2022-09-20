@@ -95,7 +95,7 @@ body {
 
 /* site nav */
 
-.container.main-nav {
+/* .container.main-nav {
   display: flex;
   align-items: center;
 }
@@ -104,20 +104,15 @@ body {
   display: inline-flex;
   padding-top: 31px;
   padding-bottom: 31px;
-}
-
-.nav {
   margin-left: 93px;
 }
 
-.site-nav .item-nav:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav .link {
+.site-nav__link {
   position: relative;
-
-  padding-bottom: 32px;
 
   color: var(--title-text-color);
   font-weight: 500;
@@ -132,7 +127,7 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-}
+} */
 
 .item-nav .link.current {
   color: var(--accent-color);
