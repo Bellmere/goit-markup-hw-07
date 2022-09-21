@@ -28,13 +28,16 @@ body {
 }
 
 .container {
-  display: flex;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.container--flex {
+  display: flex;
+  align-items: center;
 }
 
 .list {
@@ -59,7 +62,6 @@ body {
 }
 
 .site-nav {
-  display: inline-flex;
   margin-left: 93px;
 }
 
@@ -68,11 +70,11 @@ body {
 }
 
 .site-nav__item {
+  display: flex;
   position: relative;
   padding-top: 32px;
-  padding-bottom: 31px;
+  padding-bottom: 32px;
 }
-
 .site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
@@ -108,9 +110,11 @@ body {
 .contact-list {
   display: inline-flex;
   margin-left: auto;
-  align-items: center;
 }
 
+.contact-list__item {
+  display: flex;
+}
 .contact-list__item:not(:last-child) {
   margin-right: 50px;
 }
@@ -122,7 +126,6 @@ body {
 .contact-list__link {
   display: inline-flex;
   align-items: center;
-  vertical-align: text-bottom;
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;

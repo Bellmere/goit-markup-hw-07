@@ -3,7 +3,6 @@
   }
 
   .site-nav {
-    display: inline-flex;
     margin-left: 93px;
   }
 
@@ -12,15 +11,17 @@
   }
 
   .site-nav__item {
+    display: flex;
     position: relative;
     padding-top: 32px;
-    padding-bottom: 31px;
+    padding-bottom: 32px;
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
 
   }
 
-  .site-nav__item:not(:last-child) {
-    margin-right: 50px;
-  }
 
   .site-nav__link {
     color: var(--title-text-color);
@@ -60,11 +61,14 @@
   .contact-list {
     display: inline-flex;
     margin-left: auto;
-    align-items: center;
   }
 
-  .contact-list__item:not(:last-child) {
-    margin-right: 50px;
+  .contact-list__item {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
   }
 
   .contact-list__icon {
@@ -74,8 +78,7 @@
   .contact-list__link {
     display: inline-flex;
     align-items: center;
-    vertical-align: text-bottom;
-  
+
     color: var(--text-color);
     font-weight: 500;
     font-size: 14px;
@@ -85,7 +88,7 @@
     fill: var(--text-color);
   
     transition: fill 250ms var(--transition-cubic),
-      color 250ms var(--transition-cubic);
+                color 250ms var(--transition-cubic);
 
       &:hover,
       &:focus {
