@@ -193,6 +193,10 @@
   padding-bottom: 94px;
 }
 
+.section--top {
+  padding-top: 0;
+}
+
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -214,7 +218,7 @@
   height: 600px;
 }
 
-.overlay {
+.section-hero--overlay {
   width: 1600px;
   height: 600px;
   margin-left: auto;
