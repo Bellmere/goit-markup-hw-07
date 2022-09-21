@@ -40,6 +40,10 @@
     align-items: center;
   }
 
+  .container-hero--height {
+    min-height: 600px;
+  }
+
   .list {
     list-style: none;
     padding: 0;
@@ -55,4 +59,8 @@
     height: 1px !important;
     width: 1px !important;
     overflow: hidden;
+  }
+
+  .background-color--black {
+    background-color: var(--secondary-black-color);
   }
