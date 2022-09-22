@@ -1,0 +1,29 @@
+.adress-list__item {
+    margin-top: 0;
+
+      &:not(:last-child) {
+        margin-bottom: 9px;
+      }
+  }
+  
+  .adress-list__contact {
+    text-decoration: none;
+  
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--footer-contact-color);
+  
+    transition: color 250ms var(--transition-cubic);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+  
+  .adress-list__contact--reverse {
+    color: var(--primary-white-color);
+  
+    transition: color 250ms var(--transition-cubic);
+  }
