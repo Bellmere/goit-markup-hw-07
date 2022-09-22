@@ -197,7 +197,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 145px;
+  width: 100%;
   padding: 0;
   margin: 0;
   color: var(--accent-color);
@@ -274,4 +274,22 @@ body {
 .section-hero__btn {
   display: flex;
   justify-content: center;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section--top {
+  padding-top: 0;
+}
+
+.section__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

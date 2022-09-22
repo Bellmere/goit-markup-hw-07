@@ -509,21 +509,18 @@
 
 /* clients */
 
-.clients-list {
+.clients__list {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  
 }
 
-.item-clients .icon {
+.clients__link {
   display: inline-flex;
-  width: 170px;
-  height: 92px;
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  width: 100%;
+  padding: 17px 0;
 
-  background-repeat: no-repeat;
-  background-position: center;
   align-items: center;
   justify-content: center;
 
@@ -536,12 +533,13 @@
     border 250ms var(--transition-cubic);
 }
 
-.item-clients:not(:last-child) {
-  margin-right: 30px;
+.clients__item {
+  display: flex;
+  width: calc((100% - 5 * 30px) / 6);
 }
 
-.clients-link .icon:hover,
-.clients-link .icon:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
