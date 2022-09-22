@@ -1,0 +1,29 @@
+.page-footer {
+    background-color: var(--secondary-black-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .container--footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-wraper {
+    display: flex;
+    width: 50%;
+  }
+  
+  .page-footer__title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 0;
+  
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  
+    color: var(--primary-white-color);
+  }
