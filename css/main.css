@@ -498,30 +498,26 @@ body {
   color: var(--primary-white-color);
 }
 
-.page-footer {
-  background-color: var(--secondary-black-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.container--footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.info-wraper {
-  display: flex;
-  width: 50%;
-}
-
-.page-footer__title {
+.adress-list__item {
   margin-top: 0;
-  margin-bottom: 20px;
-  padding: 0;
-  text-align: left;
-  font-weight: 700;
+}
+.adress-list__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.adress-list__contact {
+  text-decoration: none;
+  font-style: normal;
   font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+  line-height: 1.71;
+  color: var(--footer-contact-color);
+  transition: color 250ms var(--transition-cubic);
+}
+.adress-list__contact:hover, .adress-list__contact:focus {
+  color: var(--accent-color);
+}
+
+.adress-list__contact--reverse {
   color: var(--primary-white-color);
+  transition: color 250ms var(--transition-cubic);
 }/*# sourceMappingURL=main.css.map */
