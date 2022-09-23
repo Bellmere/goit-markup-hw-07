@@ -5,3 +5,9 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
   }
+
+  .wraper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
