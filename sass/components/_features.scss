@@ -3,6 +3,10 @@
     gap: 30px;
     flex-wrap: wrap;
   }
+
+  .features__item {
+    width: calc((100% - 3 * 30px) / 4);
+  }
   
   .features__icon {
     display: inline-flex;
@@ -16,10 +20,6 @@
   
     background-color: var(--secondary-white-color);
     border-radius: 4px;
-  }
-  
-  .features__item {
-    width: calc((100% - 3 * 30px) / 4);
   }
   
   .features__title {

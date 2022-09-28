@@ -1,5 +1,4 @@
 .page-footer {
-    background-color: var(--secondary-black-color);
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -54,8 +53,6 @@
   
   .adress-list__contact--reverse {
     color: var(--primary-white-color);
-  
-    transition: color 250ms var(--transition-cubic);
   }
 
   .join {
@@ -76,6 +73,7 @@
   .subscribe__input {
     width: calc(100% - 212px);
     height: 50px;
+    padding: 15px 16px;
     
     color: var(--primary-white-color);
     background-color: var(--secondary-black-color);
@@ -84,8 +82,6 @@
     border-radius: 4px;
   
     &::placeholder {
-      padding-left: 16px;
-      
       font-size: 16px;
       line-height: 1.25;
       

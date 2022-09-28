@@ -59,9 +59,8 @@
       </header>
       <main class="main-page">
         <!--Hero-->
-
         <section class="section-hero background-color--black section-hero--overlay">
-          <div class="container container-hero--padding">
+          <div class="container section-hero--padding">
             <h1 class="section-hero__title">
               Ефективні рішення для <br />
               вашого бізнесу
@@ -71,7 +70,6 @@
               </button>
           </div>
         </section>
-
         <!--features-->
         <section class="section features">
           <div class="container">
@@ -113,14 +111,14 @@
                   зумовлює.
                 </p>
               </li>
-              <li class="features__item icon-astronaut">
+              <li class="features__item">
                 <div class="features__icon">
                   <svg width="70" height="70">
                     <use href="./images/icons.svg#astronaut"></use>
                   </svg>
                 </div>
                 <h3 class="features__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                <p class="text">
+                <p class="features__text">
                   Значимість цих проблем настільки очевидна, що реалізація
                   планових завдань.
                 </p>
@@ -129,10 +127,9 @@
           </div>
         </section>
         <!--what we do-->
-        <section class="section section--top">
+        <section class="section do do--top">
           <div class="container">
             <h2 class="section__title">Чим ми займаємося</h2>
-
             <ul class="do__list list">
               <li class="do__item">
                 <img
@@ -458,12 +455,10 @@
             <div class="subscribe__box">
               <input class="subscribe__input" type="email" name="email" placeholder="E-mail" required />
               <button type="submit" class="subscribe__btn btn btn-main">
-                <div class="subscribe__btn__label">
-                  <span class="subscribe__btn__text">Підписатися</span>
-                  <svg width="24" height="24">
+                  Підписатися
+                  <svg class="subscribe__btn__icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-send"></use>
                   </svg>
-                </div>
               </button>
             </div>
           </form>
@@ -519,7 +514,7 @@
               >
             </label>
           </div>
-          <button type="submit" class="btn btn-main modal-form__btn__submit">Відправити</button>
+          <button type="submit" class="modal-btn__submit btn btn-main">Відправити</button>
         </form>
       </div>
     </div>
