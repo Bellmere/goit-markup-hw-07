@@ -11,13 +11,13 @@
     border: none;
   
     text-decoration: none;
+
+    & span {
+      color: var(--primary-black-color);
+    }
   }
 
-  .logo__text {
-    color: var(--primary-black-color);
-    }
-
-  .logo__text--reverse {
+  .logo .logo--reverse {
     color: var(--primary-white-color);
   }
   

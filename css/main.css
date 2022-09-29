@@ -240,12 +240,11 @@ img {
   border: none;
   text-decoration: none;
 }
-
-.logo__text {
+.logo span {
   color: var(--primary-black-color);
 }
 
-.logo__text--reverse {
+.logo .logo--reverse {
   color: var(--primary-white-color);
 }
 
@@ -355,8 +354,7 @@ img {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  padding: 27px 15px;
   margin: 0;
   font-weight: 700;
   font-size: 14px;
