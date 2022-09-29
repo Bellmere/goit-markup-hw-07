@@ -32,3 +32,12 @@ body {
   .page-main {
     flex: 1 1 auto;
   }
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    display: block;
+  }

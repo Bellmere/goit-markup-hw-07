@@ -15,18 +15,14 @@
 
   .logo__text {
     color: var(--primary-black-color);
-    font-family: Raleway, serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
     }
 
-    .page-footer__logo__text {
-      color: var(--primary-white-color);
-    }
-
-    .page-footer__logo__link {
-      display: flex;
-      padding-top: 0px;
-      margin-bottom: 20px;
-    }
+  .logo__text--reverse {
+    color: var(--primary-white-color);
+  }
+  
+  .logo--geometry {
+    display: flex;
+    padding-top: 0px;
+    margin-bottom: 20px;
+  }

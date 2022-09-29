@@ -7,6 +7,10 @@
 
 .btn-main {
   display: inline-block;
+  text-align: center;
+
+  padding: 10px 32px;
+
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-weight: 700;
@@ -15,9 +19,16 @@
   letter-spacing: 0.06em;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: background-color 250ms var(--transition-cubic);
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn-hero-color);
+  }
 }
 
-.portfolio-btn {
+.btn-small {
   padding: 6px 22px;
 
   background-color: var(--secondary-white-color);
@@ -47,14 +58,6 @@
     
 }
 
-  .section-hero__btn {
-    padding: 10px 32px;
-  
-    align-items: center;
-    text-align: center;
-
-  }
-
   .subscribe__btn {    
     position: relative;
 
@@ -63,7 +66,6 @@
   
     fill: var(--primary-white-color);
 
-    transition: background-color 250ms var(--transition-cubic);
 
     &__icon {
       position: absolute;
@@ -71,9 +73,12 @@
       right: 28px;
       margin-left: 10px;
     }
-    
-    &:hover,
-    &:focus {
-      background-color: var(--btn-hero-color);
-    }
+  }
+
+  .modal-btn__submit {
+    display: flex;
+
+    padding: 10px 52px;
+    margin: 0 auto;
+
   }
