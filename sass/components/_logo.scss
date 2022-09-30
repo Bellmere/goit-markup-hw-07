@@ -11,17 +11,17 @@
     border: none;
   
     text-decoration: none;
-
-    & span {
-      color: var(--primary-black-color);
-    }
   }
 
-  .logo .logo--reverse {
+  .logo span {
+    color: var(--primary-black-color);
+  }
+
+  .logo--reverse span  {
     color: var(--primary-white-color);
   }
   
-  .logo--geometry {
+  .footer-main .logo {
     display: flex;
     padding-top: 0px;
     margin-bottom: 20px;
